@@ -1,14 +1,20 @@
-general.import = [
-	"~/.config/alacritty/themes/themes/dracula.toml"
-]
+[terminal.shell]
+program = "nu"
+args = []
 
-#[terminal.shell]
-# program = "/opt/homebrew/bin/fish"
-# program = "/opt/homebrew/bin/nu"
-# args = []
+[window]
+dimensions = { columns = 135, lines = 35 }
 
 [font]
 normal = { family = "MesloLGL Nerd Font Mono" }
+size = 8
 
 [cursor]
 style = { shape = "Beam", blinking = "On" }
+
+[general]
+import = [
+	"~/.config/alacritty/themes/themes/dracula.toml"
+]
+
+[terminal]
