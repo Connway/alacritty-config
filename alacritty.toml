@@ -1,6 +1,6 @@
 [terminal.shell]
 program = "nu"
-args = []
+args = ["--login"]
 
 [window]
 dimensions = { columns = 135, lines = 35 }
