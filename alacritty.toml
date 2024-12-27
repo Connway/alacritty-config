@@ -1,6 +1,6 @@
 [terminal.shell]
 program = "/opt/homebrew/bin/nu"
-args = []
+args = ["--login"]
 
 [font]
 normal = { family = "MesloLGL Nerd Font Mono" }
